@@ -1,0 +1,62 @@
+body{
+    background-color: darkorchid;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stunden{
+    fill:transparent;
+    stroke:white;
+    stroke-width:5;
+    stroke-dasharray:0.2 4.8;
+    stroke-dashoffset:0.1;
+}
+.minuten{
+    fill:transparent;
+    stroke:black;
+    stroke-width:5;
+    stroke-dasharray:0.2 0.8;
+    stroke-dashoffset:0.1;
+}
+
+.stundenzeiger{
+    stroke: white;
+    stroke-width: 2;
+}
+.stundenzeiger2{
+    stroke: white;
+    stroke-width: 7;
+    stroke-linecap:round;
+}
+
+.minutenzeiger{
+    stroke: white;
+    stroke-width: 2;
+}
+.minutenzeiger2{
+    stroke: white;
+    stroke-width: 7;
+    stroke-linecap:round;
+}
+
+.sekundenzeiger{
+    stroke:plum;
+    stroke-width: 2;
+}
+
+.centerCircle{
+    fill: darkorchid;
+    stroke-width: 2;
+    stroke: white;
+}
+
+.text{
+    fill: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-anchor: middle;
+    cursor: pointer;
+    user-select: none;
+}
